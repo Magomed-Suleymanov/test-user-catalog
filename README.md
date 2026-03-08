@@ -35,7 +35,7 @@ npm install
 npm run dev
 ```
 
-Откройте [http://localhost:3001](http://localhost:3001) в браузере.
+Откройте [http://localhost:3000](http://localhost:3000) в браузере.
 
 ### Сборка для продакшна
 
