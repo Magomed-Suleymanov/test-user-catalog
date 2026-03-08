@@ -1,0 +1,39 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 480px;
+  width: 100%;
+}
+
+.icon {
+  position: absolute;
+  left: 12px;
+  font-size: 14px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.clear {
+  position: absolute;
+  right: 2px;
+  background: none;
+  color: var(--color-text-muted);
+  font-size: 13px;
+}
+
+.clear:hover {
+  color: var(--color-text-primary);
+  background: var(--color-border);
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
